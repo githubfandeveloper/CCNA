@@ -1,0 +1,2 @@
+PVST+
+set primary per vlan - spanning-tree vlan 1 root primary 
