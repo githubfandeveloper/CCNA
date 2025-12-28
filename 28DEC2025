@@ -15,3 +15,9 @@ when a port with PortFast receives a BPDU (Bridge Protocol Data Unit), it realiz
 Default Action: The port loses its PortFast status and reverts to being a "normal" STP port.
 
 The Risk: It will go through the standard Listening and Learning states. During this time, a temporary loop could still occur before STP converges.
+
+MSTP
+
+Edge Port
+
+Rapid PVST
