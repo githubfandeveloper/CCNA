@@ -1,3 +1,4 @@
 PVST+
 set primary per vlan - spanning-tree vlan 1 root primary
 times 75% of ordinary priority ID
+set sec per vlan - spanning-tree vlan 1 root secondary
