@@ -4,3 +4,14 @@ times 75% of ordinary priority ID
 set sec per vlan - spanning-tree vlan 1 root secondary
 portfast, no 50s or 30s delay
 root guard
+loop guard
+portfast
+
+BPDU filter
+
+BPDU guard
+when a port with PortFast receives a BPDU (Bridge Protocol Data Unit), it realizes the device on the other end is a switch, not an end-host.
+
+Default Action: The port loses its PortFast status and reverts to being a "normal" STP port.
+
+The Risk: It will go through the standard Listening and Learning states. During this time, a temporary loop could still occur before STP converges.
