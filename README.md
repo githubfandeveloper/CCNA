@@ -1,1 +1,1 @@
-28 DEC # CCNA
+CCNA
